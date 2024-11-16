@@ -1,0 +1,15 @@
+img{
+    height: 350px;
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    width: 200px;
+    height: 350px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: gallary 20s linear infinite;
+    cursor: pointer;
+}
